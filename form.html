@@ -1,0 +1,64 @@
+<form action="#" method="get" name="forma" id="forma">
+        <table style="margin:10px auto;">
+          <tr>
+            <td class="naziv">Ime i prezime:</td>
+            <td>
+              <input type="text" class="text-box"  id="tbImePrezime" name="tbImePrezime"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="naziv">Lozinka:</td>
+            <td>
+              <input type="password" class="text-box" id="tbLozinka" name="tbLozinka"/>
+            </td>
+          </tr>
+         <tr>
+            <td class="naziv">Lozinka ponovo:</td>
+            <td><input type="password" class="text-box" id="tbLozinkaPonovo"/></td>
+          </tr>
+          <tr>
+            <td class="naziv">Email:</td>
+            <td><input type="email" class="text-box" id="tbEmail" name="tbEmail"/></td>
+          </tr>
+           <tr>
+            <td class="naziv">Uloga:</td>
+            <td>
+               <select class="lista" id="ddlUloga" name="ddlUloga">
+                 <option value="0">Izaberi...</option>
+                 <option value="KOR">Korisnik</option>
+                 <option value="MOD">Moderator</option>
+                 <option value="ADM">Administrator</option>
+               </select>
+            </td>
+          </tr>
+           <tr>
+            <td class="naziv">Slika:</td>
+            <td><input type="file" class="text-box" id="slika" name="slika"/></td>
+          </tr>
+          <tr>
+             <td class="naziv">Jezik:</td>
+            <td>
+               <input type="checkbox" id="engJezik" value="Engleski"/> Engleski jezik<br/>
+               <input type="checkbox" id="nemJezik" value="Nemacki" /> Nemacki jezik<br/>
+               <input type="checkbox" id="rusJezik" value="Ruski"/> Ruski jezik<br/>
+            </td>
+           </tr>
+          <tr>
+            <td class="naziv">Pol:</td>
+            <td>
+               <input type="radio" name="pol" id="muskiPol" value="M" /> Muski<br/>
+               <input type="radio" name="pol" id="zenskiPol" value="M" /> Zenski<br/>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+                 <input type="submit" value="Unesi" class="dugme" id="unos" name="unos"/>
+             <input type="reset" value="Ponisti" class="dugme"  id="ponisti" name="ponisti"/>
+            </td>
+          </tr>
+        </table>
+     </form>
+
+
+
+
